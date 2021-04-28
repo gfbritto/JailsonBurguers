@@ -1,0 +1,19 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-produto-card {
+    object-fit: cover;
+    border-radius: 4px;
+    object-position: center;
+    height: 145px;
+    width: 145px;
+}
+
+.produto-card h3, p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+}
